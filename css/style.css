@@ -2607,7 +2607,7 @@ body.dark .grax_tm_settings .cursor li .svg,
     letter-spacing: 5px;
   }
   .grax_tm_hero .name {
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 5px;
   }
   .grax_tm_hero .job {
@@ -2696,7 +2696,7 @@ body.dark .grax_tm_settings .cursor li .svg,
 }
 @media (max-width: 480px) {
   .grax_tm_hero .name {
-    font-size: 30px;
+    font-size: 25px;
   }
   .grax_tm_hero .job {
     font-size: 15px;
