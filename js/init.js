@@ -651,6 +651,13 @@ function grax_tm_parallax_effect() {
         console.log("ready!");
       },
     });
+    var scene2 = $(".parallax").get(1);
+    var parallax = new Parallax(scene2, {
+      relativeInput: true,
+      onReady: function () {
+        console.log("ready!");
+      },
+    });
   }
 }
 
