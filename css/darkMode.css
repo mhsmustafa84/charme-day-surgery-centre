@@ -122,3 +122,10 @@ body.dark .progress_inner .background {
 body.dark .progress_inner > span {
   color: #fff;
 }
+body.dark .progressbar a {
+  color: white;
+}
+
+body.dark .progressbar .line {
+  background-color: white;
+}
