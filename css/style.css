@@ -2069,7 +2069,7 @@ body.modal {
   height: 100px;
   width: 1px;
   bottom: 25px;
-  right: 0;
+  right: -25px;
   background-color: rgba(0, 0, 0, 0.08);
   z-index: 10;
   transition: all 0.3s ease;
