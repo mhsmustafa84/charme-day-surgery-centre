@@ -30,9 +30,12 @@ jQuery(document).ready(function () {
   grax_tm_parallax_effect();
   grax_tm_totop();
 
-  jQuery(window).load("body", function () {
-    grax_tm_my_load();
-  });
+  // jQuery(window).load("body", function () {
+  //   grax_tm_my_load();
+  // });
+  setTimeout(function () {
+    grax_tm_hero_title_fade();
+  }, 500);
   jQuery(window).on("resize", function () {
     grax_tm_modalbox_news();
   });
